@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.header {
+    padding: 27px 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    color: #4C5866;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 296px;
+    margin-right: 60px;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.main-content {
+    padding-top: 60px;
+}
+
+.main-content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-info {
+    padding-top: 70px;
+    max-width: 445px;
+}
+
+.main-content-text {
+    font-family: 'Roboto', sans-serif;
+    line-height: 100%;
+    font-size: 60px;
+    color: #4C5866;
+    margin-bottom: 30px;
+}
+
+.main-content-img {
+    display: flex;
+}
+
+.main-content-par {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #85859B;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #fff;
+    border: 1px solid #7875FE;
+    padding: 24px 90px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 117%;
+    cursor: pointer;
+    color: #7875FE;
+}
+
+.results {
+    padding: 90px 0;
+    background-color: #EBEBEB;
+}
+
+.results-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.results-item {
+    max-width: 350px;
+    padding-top: 20px;
+    display: flex;
+    border-top: 1px solid #C0C0C0;
+    box-sizing: border-box;
+}
+
+.results-item-info {
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.results-item-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.results-item-par {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #85859B;
+}
+
+.results-extra {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.results-info {
+    padding-top: 59px;
+    padding-left: 30px;
+    max-width: 350px;
+}
+
+.results-info-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 100%;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.results-info-par1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859B;
+    margin-bottom: 15px;
+}
+
+.results-info-par2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859B;
+}
+
+.products {
+    padding: 90px 0;
+}
+
+.products-items {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.products-item {
+    max-width: 255px;
+}
+
+.products-item-name {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 117%;
+    color: #666666;
+}
+
+.products-item-count {
+    margin: 8px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 117%;
+    color: #B5B5BD;
+}
+
+.products-item-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859B;
+    margin-bottom: 20px;
+}
+
+.products-item-link a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 117%;
+    color: #7875FE;
+    text-decoration: none;
+}
+
+.partners {
+    padding: 90px 0;
+    background-color: #EBEBEB;
+}
+
+.partners-items {
+    display: flex;
+    gap: 30px;
+}
+
+.partners-item {
+    width: 255px;
+    height: 135px;
+    border: 1px solid #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sketchbook .container {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sketch-info {
+    padding-top: 24px;
+    max-width: 350px;
+}
+
+.sketch-info-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 100%;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.sketch-info-par {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859B;
+    margin-bottom: 30px;
+}
+
+.sketch-info-image {
+    display: flex;
+}
+
+.footer {
+    background-color: #4C5866;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 0;
+}
+
+.footer-socials ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
